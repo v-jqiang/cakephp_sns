@@ -1,0 +1,123 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录 | 统一登录系统 | 九恒</title>
+    <meta name="Keywords" content="九恒 水环 自然 科学"/>
+    <meta name="Description" content=""/>
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://sslstatic.guokr.com/skin/gui.css?v=257a47feeb5c">
+    
+    <link rel="stylesheet" type="text/css" href="https://sslstatic.guokr.com/skin/login-reg.css?v=6e5495314cfa">
+
+</head>
+<body>
+    <div class="container ">
+        <div class="guokr" id="guokr"></div>
+        <div class="gheader-wp">
+            
+    <div class="gheader-wp-b">
+        <div class="gheader" id="gheader">
+            <a id="guokrLogo" href="http://www.guokr.com/" title="九恒水环">九恒水环 -- 保护环境，热爱大自然！</a>
+        
+        </div>
+    </div>
+
+        </div>
+
+        
+        <div class="wrap grow gmt30 gpack">
+            <div class="gspan-6 gprefix-3 gsuffix-3 side">
+                
+    
+                <div class="side-title">你还可以用第三方帐号登录</div>
+                <div class="extoauth2">
+                    <a class="icon weibo" href="/login/">微博帐号登录</a>
+                    <a class="icon qq" href="/qq/sign_in/?success=https%3A%2F%2Faccount.guokr.com%2Foauth2%2Fauthorize%2F%3Fclient_id%3D32353%26redirect_uri%3Dhttp%253A%252F%252Fwww.guokr.com%252Fsso%252F%253Flazy%253Dy%2526rid%253D773024231%2526success%253Dhttp%25253A%25252F%25252Fwww.guokr.com%25252F%26response_type%3Dcode%26state%3D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%26suppress_prompt%3D1">qq帐号登录</a>
+                    <a class="icon douban" href="/douban/sign_in/?success=https%3A%2F%2Faccount.guokr.com%2Foauth2%2Fauthorize%2F%3Fclient_id%3D32353%26redirect_uri%3Dhttp%253A%252F%252Fwww.guokr.com%252Fsso%252F%253Flazy%253Dy%2526rid%253D773024231%2526success%253Dhttp%25253A%25252F%25252Fwww.guokr.com%25252F%26response_type%3Dcode%26state%3D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%26suppress_prompt%3D1">豆瓣帐号登录</a>
+                    <a class="icon renren" href="/renren/sign_in/?success=https%3A%2F%2Faccount.guokr.com%2Foauth2%2Fauthorize%2F%3Fclient_id%3D32353%26redirect_uri%3Dhttp%253A%252F%252Fwww.guokr.com%252Fsso%252F%253Flazy%253Dy%2526rid%253D773024231%2526success%253Dhttp%25253A%25252F%25252Fwww.guokr.com%25252F%26response_type%3Dcode%26state%3D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%26suppress_prompt%3D1">人人帐号登录</a>
+                </div>
+			</div>	
+		</div>
+     </div>           
+    <!--<p>
+        还没有帐号？<a id="changeVcode" href="/sign_up/?success=https%3A%2F%2Faccount.guokr.com%2Foauth2%2Fauthorize%2F%3Fclient_id%3D32353%26redirect_uri%3Dhttp%253A%252F%252Fwww.guokr.com%252Fsso%252F%253Flazy%253Dy%2526rid%253D773024231%2526success%253Dhttp%25253A%25252F%25252Fwww.guokr.com%25252F%26response_type%3Dcode%26state%3D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%26suppress_prompt%3D1">马上注册</a>
+    </p>
+
+            </div>
+            <div class="gspan-15 gprefix-4 main">
+                
+    <h1>欢迎登录果壳</h1>
+    <form class="gform" id="loginForm" action="" method="POST">
+        <input id="csrf_token" name="csrf_token" type="hidden" value="20130729104753##2d5235a007d2ce9902fdbfc77850b5c9aa73bc02">
+        <p class="gform-box">
+            
+            <input class="gbtxt" id="email" maxlength="40" name="email" placeholder="邮箱" required="" type="email" value="">
+            <span class="tip"></span>
+        </p>
+        <p class="gform-box">
+            <input class="gbtxt" id="password" name="password" placeholder="密码" required="" type="password" value="">
+            <span class="tip"></span>
+        </p>
+        
+    <p class="gform-box gform-rem">
+        <input checked id="permanent" name="permanent" type="checkbox" value="y">
+        
+        <label for="permanent">记住我（网吧或别人的电脑请不要勾选）</label>
+        
+        <span class="tip"></span>
+    </p>
+
+        <p class="gform-box">
+            <input type="submit" class="gform-submit greg-btn" value="登录">
+            <a class="gform-forget_pw" href="/email/forgot_password/?success=https%3A%2F%2Faccount.guokr.com%2Foauth2%2Fauthorize%2F%3Fclient_id%3D32353%26redirect_uri%3Dhttp%253A%252F%252Fwww.guokr.com%252Fsso%252F%253Flazy%253Dy%2526rid%253D773024231%2526success%253Dhttp%25253A%25252F%25252Fwww.guokr.com%25252F%26response_type%3Dcode%26state%3D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%26suppress_prompt%3D1">忘记密码？</a>
+        </p>
+		-->
+    </form>
+
+            </div>
+        </div>
+
+<!--
+        <div class="gbottom">
+    <div class="gbottom-nav">
+        <a href="http://www.guokr.com/about/">关于我们</a>
+        <a href="http://www.guokr.com/i/0409470284/blogs/">加入果壳</a>
+        <a href="http://www.guokr.com/spread/">媒体报道</a>
+        <a href="http://www.guokr.com/question/446161/">帮助中心</a>
+        <a href="http://www.guokr.com/zone/">内容专区</a>
+        <a href="http://www.guokr.com/help/policy/">免责声明</a>
+        <a href="http://www.guokr.com/contact/">联系我们</a>
+        <a href="http://m.guokr.com/">移动版</a>
+        <a href="http://www.guokr.com/mobile/">移动应用</a>
+    </div>
+    <div class="gbottom-i">©2013果壳网&nbsp;京ICP备09043258号-2&nbsp;京公网安备1101052730</div>
+</div>
+    </div>
+    
+    
+   <script>
+       
+       var g_page_name = "loginPage",
+           GJS_VERSION = 'doom',
+           GJS_PRELOAD = ['ga', 'jQuery', 'GUtils', 'api', 'share'],
+           ukey = null,
+           
+           url_signin = "https:\/\/account.guokr.com\/sso\/?lazy=y&success=https%3A%2F%2Faccount.guokr.com%2Fsign_in%2F%3Fsuccess%3Dhttps%253A%252F%252Faccount.guokr.com%252Foauth2%252Fauthorize%252F%253Fclient_id%253D32353%2526redirect_uri%253Dhttp%25253A%25252F%25252Fwww.guokr.com%25252Fsso%25252F%25253Flazy%25253Dy%252526rid%25253D773024231%252526success%25253Dhttp%2525253A%2525252F%2525252Fwww.guokr.com%2525252F%2526response_type%253Dcode%2526state%253D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%2526suppress_prompt%253D1",
+           url_signup = "https:\/\/account.guokr.com\/sign_up\/?success=https%3A%2F%2Faccount.guokr.com%2Fsso%2F%3Flazy%3Dy%26success%3Dhttps%253A%252F%252Faccount.guokr.com%252Fsign_in%252F%253Fsuccess%253Dhttps%25253A%25252F%25252Faccount.guokr.com%25252Foauth2%25252Fauthorize%25252F%25253Fclient_id%25253D32353%252526redirect_uri%25253Dhttp%2525253A%2525252F%2525252Fwww.guokr.com%2525252Fsso%2525252F%2525253Flazy%2525253Dy%25252526rid%2525253D773024231%25252526success%2525253Dhttp%252525253A%252525252F%252525252Fwww.guokr.com%252525252F%252526response_type%25253Dcode%252526state%25253D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%252526suppress_prompt%25253D1",
+           
+           weibo_signin = "https:\/\/account.guokr.com\/weibo\/sign_in\/?success=https%3A%2F%2Faccount.guokr.com%2Fsso%2F%3Flazy%3Dy%26success%3Dhttps%253A%252F%252Faccount.guokr.com%252Fsign_in%252F%253Fsuccess%253Dhttps%25253A%25252F%25252Faccount.guokr.com%25252Foauth2%25252Fauthorize%25252F%25253Fclient_id%25253D32353%252526redirect_uri%25253Dhttp%2525253A%2525252F%2525252Fwww.guokr.com%2525252Fsso%2525252F%2525253Flazy%2525253Dy%25252526rid%2525253D773024231%25252526success%2525253Dhttp%252525253A%252525252F%252525252Fwww.guokr.com%252525252F%252526response_type%25253Dcode%252526state%25253D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%252526suppress_prompt%25253D1",
+           renren_signin = "https:\/\/account.guokr.com\/renren\/sign_in\/?success=https%3A%2F%2Faccount.guokr.com%2Fsso%2F%3Flazy%3Dy%26success%3Dhttps%253A%252F%252Faccount.guokr.com%252Fsign_in%252F%253Fsuccess%253Dhttps%25253A%25252F%25252Faccount.guokr.com%25252Foauth2%25252Fauthorize%25252F%25253Fclient_id%25253D32353%252526redirect_uri%25253Dhttp%2525253A%2525252F%2525252Fwww.guokr.com%2525252Fsso%2525252F%2525253Flazy%2525253Dy%25252526rid%2525253D773024231%25252526success%2525253Dhttp%252525253A%252525252F%252525252Fwww.guokr.com%252525252F%252526response_type%25253Dcode%252526state%25253D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%252526suppress_prompt%25253D1",
+           qq_signin = "https:\/\/account.guokr.com\/qq\/sign_in\/?success=https%3A%2F%2Faccount.guokr.com%2Fsso%2F%3Flazy%3Dy%26success%3Dhttps%253A%252F%252Faccount.guokr.com%252Fsign_in%252F%253Fsuccess%253Dhttps%25253A%25252F%25252Faccount.guokr.com%25252Foauth2%25252Fauthorize%25252F%25253Fclient_id%25253D32353%252526redirect_uri%25253Dhttp%2525253A%2525252F%2525252Fwww.guokr.com%2525252Fsso%2525252F%2525253Flazy%2525253Dy%25252526rid%2525253D773024231%25252526success%2525253Dhttp%252525253A%252525252F%252525252Fwww.guokr.com%252525252F%252526response_type%25253Dcode%252526state%25253D04b3ac834aa5ca44d9a24ebb675c8c89d24b8eadb486071048493b86022e4e5c--1375064276%252526suppress_prompt%25253D1";
+       
+   </script>
+   <script src="https://sslstatic.guokr.com/js/I.js?v=dc73ae7f4400"></script>
+   <script src="https://sslstatic.guokr.com/js/main.js?v=6e5495314cfa"></script>
+    
+    <script src="https://sslstatic.guokr.com/js/login-reg.js?v=9a62cbe789f6"></script>-->
+
+</body>
+</html>
